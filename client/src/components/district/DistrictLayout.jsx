@@ -1,17 +1,22 @@
 import React from 'react'
 import DistrictNavbar from './DistrictNavbar';
 import DistrictSidebar from './DistrictSidebar';
-import DistrictDashboard from './DistrictDashboard';
+import { Outlet } from 'react-router';
 
 const DistrictLayout = () => {
     return (
-        <div>
+        <div className="flex flex-col min-h-screen">
             <DistrictNavbar />
-            <div className='flex'>
+            <div className="flex">
+                {/* Sidebar */}
                 <DistrictSidebar />
-                <DistrictDashboard />
+                {/* Main content */}
+                <div className="ml-[250px] p-6 bg-gray-50 flex-1">
+                    <Outlet />
+                </div>
             </div>
         </div>
+
     )
 }
 

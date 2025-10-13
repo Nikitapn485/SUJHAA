@@ -26,7 +26,7 @@ ChartJS.register(
     Legend
 );
 
-const centralDashBoard = () => {
+const CentralDashBoard = () => {
     // Mock Data
     const fundData = {
         labels: ["Education", "Healthcare", "Infrastructure", "Training", "Welfare"],
@@ -149,4 +149,4 @@ const centralDashBoard = () => {
     );
 };
 
-export default centralDashBoard;
+export default CentralDashBoard;

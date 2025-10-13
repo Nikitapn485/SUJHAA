@@ -85,7 +85,7 @@ const DistrictDashboard = () => {
     };
 
     return (
-        <div className="flex-1 p-6 space-y-6">
+        <div className="mt-10 p-6 space-y-6 z-10">
             {/* Header */}
             <div>
                 <h1 className="text-2xl font-bold text-gray-800">

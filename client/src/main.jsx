@@ -21,9 +21,10 @@ import DistrictLayout from './components/district/DistrictLayout.jsx';
 import DistrictDashboard from './components/district/DistrictDashboard.jsx';
 import centralLayout from './components/central/centralLayout.jsx';
 import centralDashBoard from './components/central/centralDashBoard.jsx';
+import LandingPage from './components/main/LandingPage';
 
 const router = createBrowserRouter([
-  { path: "/", element: <Navigate to="/beneficiary" replace /> },
+  { path: "/", element: <LandingPage /> },
   {
     path: "/beneficiary",
     element: <BeneficiaryDashboardLayout />,

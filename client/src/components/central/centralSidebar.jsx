@@ -12,7 +12,7 @@ import {
     MessageSquare,
 } from "lucide-react";
 
-const centralSidebar = () => {
+const CentralSidebar = () => {
     return (
         <div>
             <div className="bg-white shadow-md w-64 h-screen p-4 flex flex-col border-r border-gray-200">
@@ -145,4 +145,4 @@ const centralSidebar = () => {
     )
 }
 
-export default centralSidebar;
+export default CentralSidebar;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const centralNavbar = () => {
+const CentralNavbar = () => {
     return (
         <div>
             <nav className="w-full bg-[#0B3D91] text-white shadow-md px-6 py-3 flex justify-between items-center fixed top-0 z-50">
@@ -46,4 +46,4 @@ const centralNavbar = () => {
     )
 }
 
-export default centralNavbar;
+export default CentralNavbar;

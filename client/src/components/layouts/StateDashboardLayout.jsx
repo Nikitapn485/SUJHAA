@@ -8,7 +8,7 @@ const StateDashboardLayout = () => {
     return (
         <div>
             <StateNavbar />
-            <div className='flex'>
+            <div className='flex items-center'>
                 <StateSIdebar />
                 <Outlet />
             </div>

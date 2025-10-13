@@ -3,7 +3,7 @@ import centralNavbar from './centralNavbar';
 import centralSidebar from './centralSidebar';
 import centralDashBoard from './centralDashBoard';
 
-const centralLayout = () => {
+const CentralLayout = () => {
     return (
         <div>
             <centralNavbar />
@@ -15,4 +15,4 @@ const centralLayout = () => {
     )
 }
 
-export default centralLayout;
+export default CentralLayout;

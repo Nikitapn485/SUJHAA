@@ -5,7 +5,7 @@ const DistrictNavbar = () => {
         <nav className="bg-[#002147] text-white px-6 py-4 flex justify-between items-center shadow-md fixed w-full top-0 z-50">
             <div className="flex items-center space-x-3">
                 <img
-                    src="/gov-logo.png"
+                    src="https://pmajay.dosje.gov.in/public/latest/images/logo.png"
                     alt="Government Logo"
                     className="h-8 w-8 object-contain"
                 />
