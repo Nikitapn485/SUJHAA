@@ -1,7 +1,7 @@
 import express from "express";
 import { createBeneficiary, uploadDocument } from "../controllers/beneficiary.controller.js";
-import { auth } from "../middlewares/auth.middleware.js";
-import { upload } from "../middlewares/upload.middleware.js";
+import { auth } from "../middlewares/auth.js";
+import { upload } from "../middlewares/multer.js";
 import { allowRoles } from "../middlewares/role.middleware.js";
 
 const router = express.Router();

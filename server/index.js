@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import { connectDB } from "./config/db.js";
+import { connectDB } from "./database/connectDB.js";
 import authRoutes from "./routes/auth.routes.js";
 import beneficiaryRoutes from "./routes/beneficiary.routes.js";
 import feedbackRoutes from "./routes/feedback.routes.js";
@@ -10,7 +10,7 @@ import verificationRoutes from "./routes/verification.routes.js";
 import misRoutes from "./routes/mis.routes.js";
 import cookieParser from "cookie-parser";
 
-dotenv.config();
+dotenv.config({});
 
 // Database Connection
 connectDB();

@@ -1,5 +1,5 @@
 import express from "express";
-import { auth } from "../middlewares/auth.middleware.js";
+import { auth } from "../middlewares/auth.js";
 import { allowRoles } from "../middlewares/role.middleware.js";
 import { getMISReport } from "../controllers/mis.controller.js";
 import { downloadMISPDF } from "../controllers/mis.controller.js";
